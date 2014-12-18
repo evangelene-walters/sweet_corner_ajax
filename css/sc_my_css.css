@@ -1,0 +1,389 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    color: #754b23;
+    font-family: "Arial", Sans-Serif;
+}
+.whole-page-container {
+    width: 1000px;
+    margin: auto;
+}
+
+.wrapper {
+    width: 100%;
+    position: relative;
+    bottom: 0;
+    left: 0;
+}
+
+
+#nav {
+    float: right;
+    margin-top: 25px;
+    margin-right: 20px;
+    width: 450px;
+}
+
+#nav li a{
+    color: #754b23;
+    font-size: 14px;
+    padding-left: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+#nav li{
+    list-style-type: none;
+    display: inline;
+}
+
+#nav a:hover{
+    color: #06b4af;
+}
+
+#logo_header {
+    position: absolute;
+    margin-top: 70px;
+    margin-left: 368px;
+}
+
+.dancing-script-italic-font p{
+    position: absolute;
+    font-family: Dancing Script;
+    font-style: normal;
+    font-size: 24px;
+    margin-top: 280px;
+    margin-left: 250px;
+}
+
+.clear-all {
+        clear: both;
+}
+
+#brown_bar {
+    width: 100%;
+    height: 25px;
+    background-color: #754b23;
+}
+
+#header {
+    height: 425px;
+    width: 100%;
+}
+
+#center-text-container {
+    width: 100%;
+    position: relative;
+}
+
+#body_text {
+    margin-top: 57px;
+    margin-left: 40px;
+    width: 550px;
+    text-align: justify;
+}
+
+
+
+#white_dots {
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 850px;
+    width: 110px;
+    height: 127px;
+}
+
+#bottom_image_home {
+    margin-top: 50px;
+    width: 100%;
+    height: 295;
+    position: relative;
+}
+
+.dancing-script-italic-font {
+    
+}
+
+.dancing-script-italic-font-bottom {
+    font-family: Dancing Script;
+    text-align: center;
+    font-style: normal;
+    font-size: 24px;
+}
+
+#home_bottom_area {
+    height: 350px;
+    margin: 0;
+}
+
+#image_bottom_section {
+    position: relative;
+    width: 1000px;
+    height: 335px;
+}
+
+footer {
+    height: 80px;
+    background-color: 06b4af;
+    position: relative;
+    width: 100%;
+    color: white;
+    font-size: 12px;
+
+}
+
+
+#footer_phone {
+    float: right;
+    width: 200px;
+    padding: 0;
+    height: 20px;
+    margin-right: 3px;
+    margin-top: 35px;
+    background: url(../img/phone_symbol.png) no-repeat;
+}
+
+#footer_phone p {
+    margin: 0;
+    padding: 0 0 0 27;
+}
+    
+
+#footer_white_dots {
+    position: absolute;
+    margin: 0;
+    padding-left: 65px;
+    padding-top: 25px;
+    width: 54px;
+    height: 43px;   
+}
+
+#footer_copyright_text {
+    position: absolute;
+    margin: 0;
+    padding-left: 350px;
+    padding-top: 19px;
+}
+
+#yellow_dots {
+    position: absolute;
+    margin-top: 70px;
+    margin-left: 670px;
+    width: 85px;
+    height: 106px;
+}
+
+#center-text-container_about_us {
+    width: 100%;
+    background: url(../img/yellow_strips2.png) repeat-y top right;
+    position: relative;
+}
+
+#image_bottom_section_services {
+    position: relative;
+}
+
+#contact_colored_form {
+    width: 310px;
+    height: 400px;
+    color: #754b23;
+}
+
+.orange_box_form {
+    width: 310px;
+    height: 35px;
+    background-color: #e86b35;
+    border: none;
+    margin-bottom: 12px;
+    padding-left: 10px;
+}
+
+.yellow_box_form {
+    width: 310px;
+    height: 35px;
+    background-color: #f6b53e;
+    border: none;
+    margin-bottom: 12px;
+    padding-left: 10px;
+}
+
+.green_box_form {
+    width: 310px;
+    height: 35px;
+    background-color: #06b4af;
+    border: none;
+    margin-bottom: 12px;
+    padding-left: 10px;
+}
+
+.yellow_textarea_form {
+    width: 310px;
+    height: 115px;
+    background-color: #f6b53e;
+    border: none;
+    margin-bottom: 12px;
+    padding-left: 10px;
+    padding-top: 8px;
+}
+
+.blue_send_button_form {
+    width: 150px;
+    height: 35px;
+    background-color: #06b4af;
+    border: none;
+    margin-bottom: 12px;
+    padding-left: 10px;
+    color: white;
+    float: right;
+}
+
+#center_contact_top {
+    position: relative;
+    display: inline-block;
+    float: right;
+    top: 57px;
+    right: 50px;
+}
+
+.home {
+     background: url(../img/orange_strips1.png) repeat-y top right;
+}
+
+#footer-text {
+    text-align: center;
+    padding-top: 40px;
+}
+
+#phone-footer {
+    background-image: url("../img/phone_symbol.png");
+    background-repeat: no-repeat;
+    margin-left: 800px;
+    margin-top: 10px;
+}
+
+#footer-dot {
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+#phone_foot {
+    background-image: url("../img/phone_symbol.png");
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 40px;
+    right: 20px;
+    padding-left: 25px;
+}
+
+form {
+    margin: 0;
+}
+
+#contact_text {
+    top: 57px;
+    left: 50px;
+    width: 500px;
+    text-align: justify;
+    position: relative;
+    margin: 0;
+    display: inline-block;
+}
+
+
+#contact_text a{
+    text-decoration: none;
+    color: #06b4af;
+}
+
+#contact-form {
+    width: 310px;
+    position: absolute;
+    right: 80px;
+    top: 40px;
+    font-size: 12px;
+}
+
+#contact-form button {
+    width: 50%;
+    float: right;
+    border: 0;
+    color: white;
+    height: 35px;
+    text-transform: uppercase;
+    font-weight: bold;
+    background-color: #06b4af;
+}
+
+
+#contact-form input {
+    width: 300px;
+    padding-left: 10px;
+    height: 35px;
+    color: #754b23;
+    border: 0;
+    margin-bottom: 10px;
+}
+
+
+#white-dots-right {
+    width: 85px;
+    height: 106px;
+    left: 750px;
+    top: 100px;
+    background: url(../img/white_dots_flip.png) no-repeat;
+    position: absolute;
+}
+
+#schedule-container {
+    width: 100%;
+    margin-left: 40px;
+    padding-top: 50px;
+    position: relative;
+}
+
+#work-schedule {
+    width: 369px;
+}
+
+#work-schedule th {  
+    width: 152px;
+    height: 35px;
+    background: #f6ede6;
+    font-weight: normal;
+    color: #754b23;
+    border-spacing: 10px;
+}
+
+#work-schedule td {  
+    background: #f6ede6;
+    width: 217px;
+    height: 35px;
+    text-align: center;
+    border-spacing: 10px;
+}
+
+td tr day hour {
+    background-color: #efefef;
+    text-align: center;
+    border-right:  5px solid white;
+}
+
+.day {
+    width: 152px;
+    height: 35px;
+}
+
+.hours {
+    width: 218px;
+    height: 35px;
+}
+
+#white-dots-left {
+    width: 85px;
+    height: 106px;
+    left: 300px;
+    top: 300px;
+    background: url(../img/white_dots.png) no-repeat;
+    position: absolute;
+}

@@ -1,0 +1,110 @@
+<html lang="en">
+
+<head>
+
+
+    <meta charset="UTF-8" />
+    <!-- begin - SEO meta tags -->
+    <meta name="title" content="My Sweet Corner Site" />
+    <meta name="keywords" content="sweetcorner, sweet, corner, home, index" />
+    <meta name="description" content="This is the home of My Sweet Corner Site." />
+    <!-- end - SEO meta tags -->
+    <title>Eva's Sweet Corner Site | Home</title>
+    <!-- Google Fonts -->
+    <link href='http://fonts.googleapis.com/css?family=Dancing+Script' rel='stylesheet' type='text/css' />
+    <!-- the following CSS file is included for styling -->
+    <link media="all" type="text/css" rel="stylesheet" href="css/sc_my_css.css" />
+
+</head>
+
+
+<body>
+
+    <div class="whole-page-container">
+
+        <div class="wrapper">
+            <div id="header">
+                <img src="img/awning.png" alt="Colored Awning Header" />
+
+                <div id="nav">
+                    <ul>
+                        <li><a href="#" data-url="home.html">Home</a>
+                        </li>
+                        <li><a href="#" data-url="about_us.html">About us</a>
+                        </li>
+                        <li><a href="#" data-url="services.html">Services</a>
+                        </li>
+                        <li><a href="#" data-url="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+                <div id="logo_header">
+                    <img src="img/logo.png" alt="Cupcake Logo" />
+                </div>
+
+                <div class="dancing-script-italic-font">
+                    <p>We deliever cupcakes for the important events in your life!</p>
+                </div>
+            </div>
+        </div>
+
+        <br class="clear-all" />
+
+        <div id="brown_bar"></div>
+            
+            <div id="center-text-container">
+                
+    
+            </div>
+                <br class="clear-all" />
+
+
+   
+        <!-- page footer - begin -->
+        <div class="wrapper">
+        <footer>
+            <div id="footer-dot"><img src="img/dots_footer_white.png"></div>
+            <div id="footer-text">Copyright &copy 2014 Sweet Corner. All rights reserved.
+            </div>
+            <div id="phone_foot">800 264 2099</div>
+        </footer>
+        </div>
+        <!-- page footer - end -->
+
+
+                
+                
+                
+    
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+
+    <script>
+        
+        $(function () {
+            $('#nav li a').on('click', clickedLink);
+            navigate('home.html');
+        });
+        function clickedLink() {
+            var page_url = $(this).data('url');
+            navigate(page_url);
+            return false;
+        }
+            
+        function navigate(page_url) {
+            $.ajax({
+                    url: page_url,
+                    success: function (data) {
+                        //Insert the contents of data into middle-content-container
+
+                        $('#center-text-container').html(data);
+                    },
+                dataType: 'text'
+            });
+        }
+                   
+    </script>
+
+
+</body>
+
+</html>
